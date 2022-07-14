@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+<div class="user-columns">
+    @*@foreach (KeyValuePair<string, string> entry in Model.Users)
+        {
+        <div class="user">
+            <h2>@entry.Key: @entry.Value</h2>
+        </div>
+        }*@
+    <p>
+        You have user 'guest'. This user has role 'default' and can change password only.
+        Your goal is to change role of this user to 'admin' and then you will be able to execute OS commands.
+    </p>
+</div>
+<div>
+    <a href="@Url.Action("Login", "Home")">Login</a>&emsp;&emsp;
+    <a href="@Url.Action("ChangePasswd", "Home")">Change password</a>
+</div>
+<br />
+<div>
+    <h3 align="center">@ViewBag.Output</h3>
+</div>

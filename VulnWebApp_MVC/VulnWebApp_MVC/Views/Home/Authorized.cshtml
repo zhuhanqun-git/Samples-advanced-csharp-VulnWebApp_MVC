@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h3>Authorized!</h3>
+
+<div>
+    <div>
+        <p>Now you can ping any host.<br />Just enter IP-address or domain name and press 'Check'</p>
+    </div>
+    <form method="post">
+        <label for="cmd">Host</label><br />
+        <input type="text" name="cmd" id="cmd" />
+        <input type="submit" value="Check" />
+    </form>
+    <p>@ViewBag.Output</p>
+</div>

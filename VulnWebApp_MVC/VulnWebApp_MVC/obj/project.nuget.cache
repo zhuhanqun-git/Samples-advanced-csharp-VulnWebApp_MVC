@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yGxivKN/w5QcoljevMICS8pk5MZfU5WuH6nheQeAO/HmcedrY/4TUm8bsKhwlAo8rDOSFTV9AeCIfDEcZHJIvQ==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\My_Sample\\temp\\VulnWebApp_MVC\\VulnWebApp_MVC\\VulnWebApp_MVC\\VulnWebApp_MVC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

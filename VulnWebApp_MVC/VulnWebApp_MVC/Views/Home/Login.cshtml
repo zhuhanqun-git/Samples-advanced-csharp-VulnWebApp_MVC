@@ -1,0 +1,15 @@
+﻿@page
+@{
+}
+
+<div>
+    <form method="post">
+        <label for="usr">Username</label><br />
+        <input type="text" name="usr" id="usr" disabled value="guest" readonly /><br />
+        <label for="pswd">Password</label><br />
+        <input type="text" name="pswd" id="pswd" />
+        <input type="submit" value="Send" />
+    </form>
+    <br />
+    <h3 align="center">@ViewBag.Output</h3>
+</div>
